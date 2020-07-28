@@ -1,15 +1,56 @@
-<body>
-  <div>
-    <div id="header">
-      <a>Gmail</a>
-      <a>Imagenes</a>
-      <a>(imagen menu)</a>
-      <a>(imagen usuario)</a>
-    </div>
-    <div id="content-box">
-      (imagen google) search-box boton1 boton2 Ofrecido por Google en:
-      <a>English</a>
-    </div>
-    <div id="footer">Footer</div>
-  </div>
-</body>
+<html>
+  <head>
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div id="navbar-left">
+          <a href="#navbar">About</a>
+          <a href="#navbar">Store</a>
+        </div>
+        <div id="navbar-right">
+          <a href="#navbar">Gmail</a>
+          <a href="#navbar">Images</a>
+          <a href="#navbar">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/essentials-set-2/17/007-menu-512.png"
+              class="icon"
+            />
+          </a>
+          <a href="#navbar">
+            <img
+              src="https://lh3.googleusercontent.com/ogw/ADGmqu9vFLP67__DV0foIDRg5Bt750ixVS9Yp2oThKAJ=s64-c-mo"
+              style="width:40px"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <center>
+        <img
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          class="mainImage"
+        />
+
+        <form>
+          <div style="padding:20px">
+            <input type="text" />
+          </div>
+          <div style="padding:10px">
+            <input type="submit" value="Search on Google" />
+            <input type="submit" value="I'm feeling lucky" />
+          </div>
+        </form>
+      </center>
+    </main>
+    <footer>
+      <nav>
+        <div id="footer-left"></div>
+        <div id="footer-right"></div>
+      </nav>
+    </footer>
+  </body>
+</html>
